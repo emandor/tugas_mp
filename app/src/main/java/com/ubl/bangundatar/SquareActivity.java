@@ -30,11 +30,11 @@ public class SquareActivity extends AppCompatActivity {
         shareButton = findViewById(R.id.btnShare);
         topAppBar = findViewById(R.id.topAppBar);
 
-        topAppBar.setNavigationOnClickListener(v -> finish());
+
         setSupportActionBar(topAppBar);
         getSupportActionBar().setDisplayShowTitleEnabled(true);
         getSupportActionBar().setTitle("Kalkulator Persegi");
-
+        topAppBar.setNavigationOnClickListener(v -> finish());
 
 
         areaButton.setOnClickListener(v -> {

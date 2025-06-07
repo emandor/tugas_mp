@@ -3,6 +3,7 @@ package com.ubl.bangundatar;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.graphics.drawable.Icon;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -17,7 +18,9 @@ public class SectionContributors {
 
         List<Contributor> contributors = Arrays.asList(
                 new Contributor("Aris Kurniawan", "2311510438"),
-                new Contributor("Ahmad Dzaki", "2311510651")
+                new Contributor("Ahmad Dzaki", "2311510651"),
+                new Contributor("Jenar Mahani","2311510032"),
+                new Contributor("Nur Ani Mudiyanti","2311510479")
         );
 
         for (Contributor contributor : contributors) {

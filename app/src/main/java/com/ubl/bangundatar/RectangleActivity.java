@@ -31,9 +31,6 @@ public class RectangleActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowTitleEnabled(true);
         getSupportActionBar().setTitle("Kalkulator Persegi Panjang");
 
-
-
-
         topAppBar.setNavigationOnClickListener(v -> finish());
 
         btnArea.setOnClickListener(v -> {

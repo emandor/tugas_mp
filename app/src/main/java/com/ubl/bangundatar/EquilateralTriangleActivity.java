@@ -26,10 +26,11 @@ public class EquilateralTriangleActivity extends AppCompatActivity {
         btnShare = findViewById(R.id.btnShare);
         topAppBar = findViewById(R.id.topAppBar);
 
-        topAppBar.setNavigationOnClickListener(v -> finish());
+
         setSupportActionBar(topAppBar);
         getSupportActionBar().setDisplayShowTitleEnabled(true);
         getSupportActionBar().setTitle("Kalkulator Segitiga Sama Kaki");
+        topAppBar.setNavigationOnClickListener(v -> finish());
 
         btnArea.setOnClickListener(v -> {
             double side = Double.parseDouble(inputSide.getText().toString());
@@ -44,9 +45,11 @@ public class EquilateralTriangleActivity extends AppCompatActivity {
         });
 
         btnShare.setOnClickListener(v -> {
+            double side = Double.parseDouble(inputSide.getText().toString());
             Intent intent = new Intent(Intent.ACTION_SEND);
             intent.setType("text/plain");
-            intent.putExtra(Intent.EXTRA_TEXT, textResult.getText().toString());
+            String sharedTemplate = side + " = " +textResult.getText().toString();
+            intent.putExtra(Intent.EXTRA_TEXT, sharedTemplate);
             startActivity(Intent.createChooser(intent, "Bagikan Hasil via..."));
         });
     }
