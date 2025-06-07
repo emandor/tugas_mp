@@ -5,11 +5,13 @@
     <string name="result_will_appear_here">Hasil akan tampil disini..</string>
     <string name="calculate_perimeter">Hitung Keliling</string>
     <string name="calculate_area">Hitung Luas</string>
-    <string name="enter_side_length">Masukkan angka</string>
+    <string name="enter_side_length">Masukkan Sisi</string>
     <string name="square_calculator">Kalkulator Persegi</string>
     <string name="enter_length">Masukkan Panjang</string>
     <string name="enter_width">Masukkan Lebar</string>
     <string name="rectangle">Persegi Panjang</string>
     <string name="calculator">Kalkulator</string>
     <string name="contributors">Contributors</string>
+    <string name="triangle">Segitiga Sama Kaki</string>
+    <string name="plane_shape_calculator">2D Kalkulator</string>
 </resources>

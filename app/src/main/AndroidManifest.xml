@@ -23,6 +23,7 @@
 
         <activity android:name=".SquareActivity" />
         <activity android:name=".RectangleActivity" />
+        <activity android:name=".EquilateralTriangleActivity" />
     </application>
 
 </manifest>

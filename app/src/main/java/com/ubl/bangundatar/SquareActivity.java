@@ -30,6 +30,11 @@ public class SquareActivity extends AppCompatActivity {
         shareButton = findViewById(R.id.btnShare);
         topAppBar = findViewById(R.id.topAppBar);
 
+        topAppBar.setNavigationOnClickListener(v -> finish());
+        setSupportActionBar(topAppBar);
+        getSupportActionBar().setDisplayShowTitleEnabled(true);
+        getSupportActionBar().setTitle("Kalkulator Persegi");
+
 
 
         areaButton.setOnClickListener(v -> {
@@ -43,9 +48,6 @@ public class SquareActivity extends AppCompatActivity {
             result = 4 * side;
             resultText.setText("Keliling: " + result);
         });
-
-        topAppBar.setNavigationOnClickListener(v -> finish());
-
 
         shareButton.setOnClickListener(v -> {
             Intent shareIntent = new Intent(Intent.ACTION_SEND);

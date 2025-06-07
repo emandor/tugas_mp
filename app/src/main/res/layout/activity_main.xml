@@ -5,17 +5,15 @@
     android:layout_height="match_parent"
     android:padding="24dp"
     android:background="@color/white">
-
     <LinearLayout
         android:orientation="vertical"
         android:gravity="center_horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <!-- Title -->
         <TextView
             android:id="@+id/appTitle"
-            android:text="@string/calculator"
+            android:text="@string/plane_shape_calculator"
             android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="@color/primary"
@@ -23,70 +21,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <!-- Menu Buttons -->
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnSquare"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/square"
-            style="@style/Widget.Material3.Button"
-            android:backgroundTint="@color/primary"
-            android:textColor="@color/white"
-            android:textSize="18sp"
-            android:layout_marginVertical="8dp" />
-
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnRectangle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/rectangle"
-            style="@style/Widget.Material3.Button"
-            android:backgroundTint="@color/primary"
-            android:textColor="@color/white"
-            android:textSize="18sp"
-            android:layout_marginVertical="8dp" />
-
-
-        <!-- Contributors Section -->
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="48dp"
-            android:layout_marginBottom="24dp"
-            android:elevation="4dp"
-            android:strokeColor="@color/primary"
-            android:strokeWidth="2.0"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="0dp"
-            app:cardBackgroundColor="@color/cardview_light_background">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:padding="16dp"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/contributorsTitle"
-                    android:text="@string/contributors"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/primary"
-                    android:layout_marginTop="48dp"
-                    android:layout_marginBottom="12dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
-                <LinearLayout
-                    android:id="@+id/contributorsContainer"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:divider="?android:attr/dividerHorizontal"
-                    android:showDividers="middle" />
-
-            </LinearLayout>
-        </com.google.android.material.card.MaterialCardView>
+        <!-- Include menu and contributor sections -->
+        <include layout="@layout/section_main_menu" />
+        <include layout="@layout/section_contributors" />
 
     </LinearLayout>
 </ScrollView>
