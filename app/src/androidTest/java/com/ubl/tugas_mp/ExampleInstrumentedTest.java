@@ -1,4 +1,4 @@
-package com.ubl.bangundatar;
+package com.ubl.tugas_mp;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.ubl.bangundatar", appContext.getPackageName());
+        assertEquals("com.ubl.tugas_mp", appContext.getPackageName());
     }
 }

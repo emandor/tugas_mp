@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.ubl.bangundatar'
+    namespace 'com.ubl.tugas_mp'
     compileSdk 35
 
     defaultConfig {
-        applicationId "com.ubl.bangundatar"
+        applicationId "com.ubl.tugas_mp"
         minSdk 24
         targetSdk 35
         versionCode 1

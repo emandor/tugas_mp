@@ -1,4 +1,4 @@
-package com.ubl.bangundatar;
+package com.ubl.tugas_mp;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -29,7 +29,7 @@ public class EquilateralTriangleActivity extends AppCompatActivity {
 
         setSupportActionBar(topAppBar);
         getSupportActionBar().setDisplayShowTitleEnabled(true);
-        getSupportActionBar().setTitle("Kalkulator Segitiga Sama Kaki");
+        getSupportActionBar().setTitle("Kalkulator Segitiga Sama Sisi");
         topAppBar.setNavigationOnClickListener(v -> finish());
 
         btnArea.setOnClickListener(v -> {

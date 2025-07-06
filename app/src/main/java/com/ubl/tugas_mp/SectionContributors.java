@@ -1,5 +1,5 @@
 
-package com.ubl.bangundatar;
+package com.ubl.tugas_mp;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -17,10 +17,7 @@ public class SectionContributors {
         LinearLayout container = activity.findViewById(R.id.contributorsContainer);
 
         List<Contributor> contributors = Arrays.asList(
-                new Contributor("Aris Kurniawan", "2311510438"),
-                new Contributor("Ahmad Dzaki", "2311510651"),
-                new Contributor("Jenar Mahani","2311510032"),
-                new Contributor("Nur Ani Mudiyanti","2311510479")
+                new Contributor("Aris Kurniawan", "2311510438")
         );
 
         for (Contributor contributor : contributors) {

@@ -1,4 +1,4 @@
-package com.ubl.bangundatar;
+package com.ubl.tugas_mp;
 
 public class Contributor {
     String name;

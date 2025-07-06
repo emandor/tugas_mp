@@ -12,6 +12,6 @@
     <string name="rectangle">Persegi Panjang</string>
     <string name="calculator">Kalkulator</string>
     <string name="contributors">Contributors</string>
-    <string name="triangle">Segitiga Sama Kaki</string>
+    <string name="triangle">Segitiga Sama Sisi</string>
     <string name="plane_shape_calculator">2D Kalkulator</string>
 </resources>

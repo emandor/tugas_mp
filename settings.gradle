@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "bangundatar"
+rootProject.name = "tugas_mp"
 include ':app'

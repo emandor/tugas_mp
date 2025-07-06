@@ -1,5 +1,5 @@
 
-package com.ubl.bangundatar;
+package com.ubl.tugas_mp;
 
 import android.app.Activity;
 import android.content.Intent;

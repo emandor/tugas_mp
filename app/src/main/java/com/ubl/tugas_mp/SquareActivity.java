@@ -1,4 +1,4 @@
-package com.ubl.bangundatar;
+package com.ubl.tugas_mp;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -35,7 +35,6 @@ public class SquareActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowTitleEnabled(true);
         getSupportActionBar().setTitle("Kalkulator Persegi");
         topAppBar.setNavigationOnClickListener(v -> finish());
-
 
         areaButton.setOnClickListener(v -> {
             double side = Double.parseDouble(sideInput.getText().toString());
