@@ -1,9 +1,6 @@
 {
   "screenshots": {
-    "backgroundColor": "white",
     "windowControls": true,
-    "windowTheme": "none",
-    "theme": "solarized light",
-    "fontFamily": "Space Mono"
+    "windowTheme": "none"
   }
 }
