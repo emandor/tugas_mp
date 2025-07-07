@@ -13,3 +13,9 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+/screenshots/*
+!/screenshots/.gitkeep
+*.pdf
+report_generated.html
+report_temp.md
