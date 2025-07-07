@@ -1,0 +1,10 @@
+{
+  "theme": "seti",
+  "paddingVertical": "20px",
+  "paddingHorizontal": "20px",
+  "fontFamily": "Hack",
+  "windowControls": true,
+  "backgroundColor": "#ffffff",
+  "dropShadow": true,
+  "dropShadowOffsetY": "20px"
+}
