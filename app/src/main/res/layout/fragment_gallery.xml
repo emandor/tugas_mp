@@ -5,11 +5,11 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/img_aris"
-        android:src="@drawable/aris"
+        android:id="@+id/img_dazki"
+        android:src="@drawable/dzaki"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:contentDescription="Foto Aris"
+        android:contentDescription="Foto Ahmad Dzaki"
         android:padding="16dp"/>
 
     <Button

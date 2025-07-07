@@ -22,7 +22,7 @@ public class GalleryFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_gallery, container, false);
 
-        ImageView imageView = view.findViewById(R.id.img_aris);
+        ImageView imageView = view.findViewById(R.id.img_dzaki);
         Button btnDetail = view.findViewById(R.id.btn_detail);
 
         imageView.setOnClickListener(v -> {

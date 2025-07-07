@@ -25,7 +25,7 @@
             <ImageView
                 android:layout_width="120dp"
                 android:layout_height="120dp"
-                android:src="@drawable/aris"
+                android:src="@drawable/dzaki"
                 android:scaleType="centerCrop"
                 android:layout_marginBottom="16dp"
                 android:background="@drawable/circle_background"
@@ -33,7 +33,7 @@
 
             <!-- Nama -->
             <TextView
-                android:text="Aris Kurniawan"
+                android:text="Ahmad Dzaki"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:layout_width="wrap_content"
@@ -42,13 +42,13 @@
 
             <!-- Info -->
             <TextView
-                android:text="🗓 Tempat Tanggal Lahir: 28 Agustus 1993"
+                android:text="🗓 Tempat Tanggal Lahir: Jakarta, 1 Januari 2000"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="4dp" />
 
             <TextView
-                android:text="🏠 Alamat: Jalan Penerangan IV"
+                android:text="🏠 Alamat: Rumah Pak RW"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="4dp" />
