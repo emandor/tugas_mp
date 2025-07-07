@@ -13,11 +13,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/primary"
-        android:title="@string/square_calculator"
         android:titleTextColor="@color/primaryDark"
         android:elevation="0dp"
         app:titleCentered="true"
-        app:navigationIcon="@drawable/ic_arrow_back"
         android:paddingHorizontal="16dp"
         />
 

@@ -26,11 +26,12 @@ public class EquilateralTriangleActivity extends AppCompatActivity {
         btnShare = findViewById(R.id.btnShare);
         topAppBar = findViewById(R.id.topAppBar);
 
-
         setSupportActionBar(topAppBar);
         getSupportActionBar().setDisplayShowTitleEnabled(true);
         getSupportActionBar().setTitle("Kalkulator Segitiga Sama Sisi");
         topAppBar.setNavigationOnClickListener(v -> finish());
+
+        topAppBar.setTitle("Kalkulator Segitiga Sama Sisi");
 
         btnArea.setOnClickListener(v -> {
             double side = Double.parseDouble(inputSide.getText().toString());
