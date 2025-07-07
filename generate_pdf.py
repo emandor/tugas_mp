@@ -3,7 +3,7 @@ from weasyprint import HTML
 
 TEMPLATE_FILE = 'report_template.html'
 SCREENSHOT_DIR = 'screenshots'
-OUTPUT_PDF = 'TUGAS 4 - 2311510438 - Aris Kurniawan.pdf'
+OUTPUT_PDF = 'TUGAS 3-a - 2311510438 - Aris Kurniawan.pdf'
 
 # Ambil daftar file PNG dari folder screenshots
 images = [f for f in os.listdir(SCREENSHOT_DIR) if f.endswith('.png')]
